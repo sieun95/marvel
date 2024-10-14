@@ -1,0 +1,77 @@
+.detailsContainer {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.characterDetails {
+  text-align: center;
+  padding: 20px;
+}
+
+.characterName {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #222;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.characterImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.characterImage:hover {
+  transform: scale(1.05);
+}
+
+.characterDescription {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.comicsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.comicItem {
+  background-color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.comicItem:hover {
+  background-color: #e0e0e0;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.attribution a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
